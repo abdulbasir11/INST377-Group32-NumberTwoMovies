@@ -20,23 +20,13 @@ app.use((req, res, next) => {
   next();
 });
 
+//route for landing page -- auto redirect to index
 app.route('/')
   .get((req, res) => {
-    console.log('GET request detected');
-    //GET code goes here
-    //Reserve this route for searches?
-    //console.log('fetch request data', json)
+    console.log('GET request detected for public route');
+    res.redirect('/public');
   })
-
-
-  .post(async(req, res) => {
-    console.log('POST request detected');
-    //const data = await fetch();
-    //const json = await data.json();
-    //console.log('fetch req data:', data);
-    //res.json(json);
-  });
-
+  
 app.listen(port, () => {
   console.log(`Listening on port ${port}.`);
 });
