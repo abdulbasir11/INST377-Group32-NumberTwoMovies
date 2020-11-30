@@ -1,0 +1,37 @@
+.content h2 {
+    text-align: center;
+}
+.content ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content ul li {
+    display: block;
+    width: 33.3%;
+    text-align: center;
+}
+.content ul li p{
+    text-align: left;
+}
+
+.content ul li div { 
+    height: 300px;
+    margin: 10px;
+    background-color: #c258ff;
+    padding: 20px;
+}
+
+.content ul li:nth-child(2) { 
+    width: 66.6%;
+}
+
+.content ul li:nth-child(2) div { 
+    margin: 10px;
+    background-color: #c258ff;
+}
+
+.content ul li div ul { 
+    display: block;
+}

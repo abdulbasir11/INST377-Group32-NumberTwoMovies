@@ -1,0 +1,19 @@
+.content h2 {
+    text-align: center;
+}
+.content ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content ul li {
+    display: block;
+    width: 33.3%;
+}
+
+.content ul li div { 
+    margin: 10px;
+    background-color: grey;
+    padding-bottom: 100%;
+}
