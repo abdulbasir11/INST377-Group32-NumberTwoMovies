@@ -18,6 +18,17 @@
     color: blueviolet;
   }
   
+  button .advance-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    color: blueviolet;
+  }
+
   .adv-search {
     width: 100%;
     display: flex;
@@ -44,4 +55,8 @@
   
   .adv-search ul li{
     display: block;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
   }
