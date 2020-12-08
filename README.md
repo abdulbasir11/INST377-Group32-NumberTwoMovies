@@ -8,9 +8,12 @@
 ### Description of target browsers
 - For the target screen sizes, we are targeting both Android devices and PCs, which have screen sizes of 1920px by 1080px (PCs) and 640dp by 480dp (Android). We plan to make our user interface responsive so that it will automatically resize on all devices.
 ### Link to User Manual
-- [User Manual](https://www.link.com)
+- [User Manual](https://github.com/abdulbasir11/INST377-Group32-NumberTwoMovies/blob/master/docs/usermanual.md)
 ### Link to Developer Manual
-- [Developer Manual](https:///www.link.com)
+- [Developer Manual](https://github.com/abdulbasir11/INST377-Group32-NumberTwoMovies/blob/master/docs/developermanual.md)
+
+### Developer Manual
+
 ### Team Members/Contributors:
 - Abdul-B. A.
 - Carl J.
