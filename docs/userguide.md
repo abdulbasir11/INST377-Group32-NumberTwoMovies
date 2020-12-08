@@ -6,7 +6,7 @@
 ## I’m Feeling Lucky!
 - The "I'm Feeling Lucky!" button generates and shows the user one randomly selected 'bad movie.' This button allows for no specific search parameters, and each movie  
 
-### Filtered/Advanced Search
+## Filtered/Advanced Search
 - The "Filtered/Advanced Search" button allows for users to input specific parameters for facets like MPAA Rating, Genre, Language, and Runtime.
 
 ### MPAA Rating
