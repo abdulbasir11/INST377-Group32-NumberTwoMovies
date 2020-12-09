@@ -36,6 +36,7 @@
     align-content: center;
     justify-content: space-around;
     font-size: 16px;
+    flex-wrap: wrap;
   }
   
   .adv-search li {
@@ -51,6 +52,7 @@
     justify-content: space-around;
     border: 2px solid white;
     padding: 8px;
+    
   }
   
   .adv-search ul li{
@@ -60,8 +62,5 @@
     justify-content: center;
     align-self: center;
   }
-  .wrapper{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  )
+  
+  
