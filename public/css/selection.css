@@ -19,8 +19,9 @@
 .content ul li div { 
     height: 300px;
     margin: 10px;
-    background-color: #c258ff;
+    background-color: #050505;
     padding: 20px;
+    border: 1px solid white;
 }
 
 .content ul li:nth-child(2) { 
@@ -29,7 +30,8 @@
 
 .content ul li:nth-child(2) div { 
     margin: 10px;
-    background-color: #c258ff;
+    background-color: #050505;
+    border: 1px solid white;
 }
 
 .content ul li div ul { 
