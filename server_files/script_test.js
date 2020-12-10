@@ -1,7 +1,6 @@
 
-document.body.addEventListener('submit', async (e) => {
-    //template for fetching text/json/any file from server
-    e.preventDefault(); // this stops whatever the browser wanted to do itself.
+document.querySelector('.main-search-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
     const form = $(e.target).serializeArray();
     fetch('/results', {
       method: 'POST',
@@ -11,6 +10,21 @@ document.body.addEventListener('submit', async (e) => {
       body: JSON.stringify(form)
     })
       .then((fromServer) => fromServer.json())
+      .then((jsonFromServer) => console.log(jsonFromServer))
+      .catch((err) => {
+        console.log(err);
+      });
+      
+    });
+
+    
+document.querySelector('.adv-search-form').addEventListener('submit', async (e) => {
+    //e.preventDefault(); // this stops whatever the browser wanted to do itself.
+    const form = $(e.target).serializeArray();
+    fetch('/results', {
+      method: 'GET'
+    })
+      .then((fromServer) => fromServer.text())
       .then((jsonFromServer) => console.log(jsonFromServer))
       .catch((err) => {
         console.log(err);
