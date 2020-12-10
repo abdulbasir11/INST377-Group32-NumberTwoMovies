@@ -2,12 +2,31 @@
     margin: 0;
     padding: 0;
   }
+
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
   }
+
+  h1 {
+    background-image: linear-gradient(to right,#221f3b, #050505);
+  }
+
+  .navlinks {
+    background: linear-gradient(to top,  #ebebeb 50%,#050505 200%);
+  }
+
+  .navlinks a {
+    color: #050505;
+    font-size: 20px;
+  }
+
+  .navlinks a:hover {
+    color: #221f3b;
+  }
+
   body {
-    background-image: linear-gradient(to bottom right, lightpink, rgb(185, 116, 241));
+    background-color: #050505;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-style: normal;
@@ -33,14 +52,14 @@
   .navbar h1 {
     text-align: center;
     padding: 30px;
-    border: 3px solid white;
+    border: 1px solid white;
   }
   .navbar ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    border: 1px solid white;
     border-width: 0 2px 2px 2px;
     height: 50px;
   }
@@ -54,8 +73,9 @@
   .content {
     width: 820px;
     margin: 40px 0;
-    border: 2px solid white;
+    border: 1px solid white;
     padding: 10px 30px;
+    background-color: #221f3b;
   }
 
   .content h4 {
@@ -77,3 +97,14 @@
   br {
     line-height: 1%;
  }
+
+ @media only screen and (max-width: 1000px) {
+  html{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+  }
+}
