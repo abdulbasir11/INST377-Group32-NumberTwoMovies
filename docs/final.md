@@ -12,7 +12,7 @@
 ### Identified stakeholders/target browsers
   - A person may want to seek out a “bad” (i.e., low-rated movie) to watch with friends, criticize, or talk and laugh over as opposed to watch seriously. Additionally, film companies could benefit from more attention to negatively reviewed films.
 ### Data we chose to work with
-  - The API we chose to work with is the IMDb API. It contains an incredible number of movies, contains the necessary fields to build the proposed website, and is well-organized (returning detailed JSON objects for any particular movie). With it, searching for movies based upon rating is relatively simple to implement.
+  - The API we chose to work with is the OMDb API. It contains an incredible number of movies, contains the necessary fields to build the proposed website, and is well-organized (returning detailed JSON objects for any particular movie). With it, searching for movies based upon rating is relatively simple to implement.
 ### Chosen strategies and solutions for the problem
   - The system we propose as the solution is a website that takes a ‘unique’ approach to discovering movies. Instead of giving serious recommendations, the site will recommend by ‘low-rating,’ guaranteeing users the worst movies. Users will not be able to adjust the critical score search parameter; it will be fixed to be below 50% for all movies displayed. However, other search parameters about the movies (such as MPAA rating, genre, and more) will be editable.
 ### Technical system decision rationale

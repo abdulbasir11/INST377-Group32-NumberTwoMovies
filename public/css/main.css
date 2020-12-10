@@ -32,6 +32,10 @@
     border: none;
   }
 
+  .advsearchtext {
+    line-height: 1em;
+  }
+
   .adv-search {
     width: 100%;
     display: flex;
@@ -94,6 +98,10 @@
   .collapsable label > span {
   text-decoration: underline dotted gray;
   cursor: pointer;
+  }
+
+  .collapsable h4 {
+    padding-bottom: 20px;
   }
 
   @media only screen and (max-width: 1000px) {

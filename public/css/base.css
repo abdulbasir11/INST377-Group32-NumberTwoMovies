@@ -82,6 +82,12 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    text-decoration-line: underline;
+  }
+
+  .content p {
+    padding: 10px;
+    line-height: 2em;
   }
 
   a {
@@ -91,7 +97,6 @@
   
   p {
     font-size: 20px;
-    line-height: normal;
   }
 
   br {
