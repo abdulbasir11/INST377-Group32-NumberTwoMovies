@@ -63,3 +63,12 @@
     align-self: center;
   }
   
+  .search{
+    height: 35px;
+    width: 350px;
+    font-size: 16px;
+  }
+.suggestions li{
+  font-size: 15px;
+  padding: 0 0 0 0;
+}

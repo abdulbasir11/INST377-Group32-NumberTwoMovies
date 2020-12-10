@@ -29,52 +29,31 @@
             name="init-search"
           >I'm Feeling Lucky!</button>
           <h4>------------------------ Advanced Search ------------------------</h4>
-          <ul class="adv-search">
-            <li>
-              <ul>
-                <h4>MPAA Rating</h4>
-                <li>
-                <form class="mpaaratingsearch">
-                  <input type="text" class="search" id="search" placeholder="Search an MPAA rating"></input>
-                    <ul class="mpaasuggestions"></ul>
-                </form>
-                </li>
+          
+            <form>
+              <p>Please input query for Restaurant</p>
+              <input class="search" id="userInput" type="text" placeholder="Search by: title,genre,runtime, or mmpa rating"></input>
+             <nav>
+              <ul class="suggestions"> 
+               <li>
+                  title: Kung Fu Hustle
+               </li> 
+               <li>
+                 runttime: 155
+               </li>
+               <li>
+                genre: action
+               </li>
+               <li>
+                 mmparating :
+               </li>
               </ul>
-            </li>
-            <li>
-              <ul>
-                <h4>Genre</h4>
-                <li>
-                <form class="genresearch">
-                  <input type="text" class="search" id="search" placeholder="Search a genre"></input>
-                    <ul class="genresuggestions"></ul>
-                </form>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-                <h4>Language</h4>
-                <li>
-                <form class="languagesearch">
-                  <input type="text" class="search" id="search" placeholder="Search a language"></input>
-                    <ul class="languagesuggestions"></ul>
-                </form>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-                <h4>Runtime</h4>
-                <li>
-                <form class="runtimesearch">
-                  <input type="text" class="search" id="search" placeholder="Search a runtime in minutes"></input>
-                    <ul class="runtimesuggestions"></ul>
-                </form>
-                </li>
-              </ul>
-            </li>
-          </ul>
+             </nav>
+          </form>
+          <div class="Resultfilter">
+  
+          </div>
+          
           <button
             type="button"
             class="advance-search"
