@@ -6,7 +6,7 @@
   - Mary T.
   - Samantha D.
 ### Link to working application
-  - [Heroku](https://www.link.com)
+  - [Heroku](https://number-two-movies.herokuapp.com/)
 ### Information problem
   - The information problem we’re hoping to solve is a lack of sites or apps that explicitly recommend bad movies; for people seeking “good” movie recommendations, there are several sites (e.g., FlickMetrix, Movie of the Night, etc). However, for people seeking “bad” movies recommendations, there are few options.
 ### Identified stakeholders/target browsers
