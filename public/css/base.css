@@ -25,8 +25,13 @@
     color: #221f3b;
   }
 
+<<<<<<< HEAD
   .wrapper {
     width: 100%;
+=======
+  .title span {
+    padding: 0px 0px 8px 0px;
+>>>>>>> e91abdabdc75d762ec5ebbff9d0a9cdf9215c8fb
   }
 
   body {
@@ -105,7 +110,7 @@
 
   br {
     line-height: 1%;
- }
+  }
 
  @media only screen and (max-width: 1000px) {
   html{
