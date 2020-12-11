@@ -25,6 +25,10 @@
     color: #221f3b;
   }
 
+  .title span {
+    padding: 0px 0px 8px 0px;
+  }
+
   body {
     background-color: #050505;
     font-family: 'Roboto', sans-serif;
@@ -101,7 +105,7 @@
 
   br {
     line-height: 1%;
- }
+  }
 
  @media only screen and (max-width: 1000px) {
   html{
