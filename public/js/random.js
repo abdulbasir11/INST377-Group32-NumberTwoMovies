@@ -12,12 +12,19 @@ async function getRandomMovies() {
         $("#poster-img").attr("src",data.Poster);
         $(".movietitle").text(data.Title);
         
+        $(".summary").text(() => $(".summary").text() + data.Plot);
+        
         $(".imdbrating p").text(() => $(".imdbrating").text() + data.imdbRating);
         data.Ratings.map((item, index) => {
             $(".ratings_section").append(`<li><p>${data.Ratings[index].Source}: ${data.Ratings[index].Value}</p></li>`);
         })
         
-        $(".mpaarating").text(() => $(".mpaarating").text() + data.Rated);
+        $(".mpaarating p").text(() => $(".mpaarating p").text() + data.Rated);
+        $(".genre p").text(() => $(".genre p").text() + data.Genre);
+        $(".language p").text(() => $(".language p").text() + data.Language);
+        $(".runtime p").text(() => $(".runtime p").text() + data.Runtime);
+        
+        $(".actors p").text(() => $(".actors p").text() + data.Actors);
     })
 }
 
