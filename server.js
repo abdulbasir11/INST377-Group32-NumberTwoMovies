@@ -40,13 +40,35 @@ app.route('/').
   });
 
 app.route('/results')
-  .get(async (req, res) => {
-    console.log('GET request detected!!!');
+  .get((req, res) => {
+
     console.log(req.query.mpaarating)
-    console.log(req.query.genre)
-    console.log(req.query.language)
-    console.log(req.query.runtime)
-    res.json(req.query.mpaarating+" "+req.query.genre+" "+req.query.language+" "+req.query.runtime)
+    let runtime = req.query.runtime;
+    let startRange = 0;
+    let endRange = 0;
+
+    switch (runtime){
+      case '40to80' :
+        startRange = 40;
+        endRange = 80;
+        break;
+      case '80to120' :
+        startRange = 80;
+        endRange = 120;
+        break;
+      case '120to160' :
+        startRange = 120;
+        endRange = 160;
+        break;
+      case '160plus' :
+        startRange = 160;
+        break;
+    }
+
+    let json_obj = {'mpaarating:' : req.query.mpaarating, 'genre' : req.query.genre, 'language': req.query.language, 'startRange' : startRange, 'endRange' : endRange};
+
+    res.json(json_obj)
+
   })
   .post(async (req, res) => {
 
