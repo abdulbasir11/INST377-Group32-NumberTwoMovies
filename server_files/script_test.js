@@ -24,7 +24,7 @@ document.querySelector('.adv-search-form').addEventListener('submit', async (e) 
     fetch('/results', {
       method: 'GET'
     })
-      .then((fromServer) => fromServer.text())
+      .then((fromServer) => fromServer.json())
       .then((jsonFromServer) => console.log(jsonFromServer))
       .catch((err) => {
         console.log(err);

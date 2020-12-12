@@ -46,7 +46,14 @@ app.route('/results')
     console.log(req.query.genre)
     console.log(req.query.language)
     console.log(req.query.runtime)
-    res.json(req.query.mpaarating+" "+req.query.genre+" "+req.query.language+" "+req.query.runtime)
+
+    const object = {
+      'mpaarating': req.query.mpaarating,
+      'genre': req.query.genre,
+      'language': req.query.language,
+      'runtime': {'start': req.query.runtime, 'end': req.query.runtime}
+    };
+    res.json(object)
   })
   .post(async (req, res) => {
 
