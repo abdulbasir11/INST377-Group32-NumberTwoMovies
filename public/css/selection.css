@@ -52,3 +52,14 @@
 .content ul li div ul li {
     width: 100%;
 }
+
+@media handheld, only screen and (max-width: 960px) {
+    html{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+  }
