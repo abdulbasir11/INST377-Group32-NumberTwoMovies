@@ -80,7 +80,8 @@ app.route('/results')
     let movie = lines[Math.floor(Math.random()*lines.length)];
 
     console.log('POST request detected');
-    const data = await fetch("http://www.omdbapi.com/?i=tt3896198&apikey=5606a178&t="+movie);
+
+    const data = await fetch("http://www.omdbapi.com/?i=tt3896198&apikey=7d48a482&t="+movie);
     const json = await data.json();
     res.json(json);
   })
