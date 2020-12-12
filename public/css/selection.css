@@ -52,3 +52,33 @@
 .content ul li div ul li {
     width: 100%;
 }
+
+@media handheld, only screen and (max-width: 960px) {
+    html{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .content ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .content ul li:nth-child(2) { 
+        width: 100%;
+    }
+    
+    .content ul li div {
+        height: min-content;
+    }
+
+    .content ul .poster div{
+        height: 66vh;
+    }
+
+  }

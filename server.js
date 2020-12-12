@@ -64,11 +64,13 @@ app.route('/results')
         startRange = 160;
         break;
     }
-
-    let json_obj = {'mpaarating:' : req.query.mpaarating, 'genre' : req.query.genre, 'language': req.query.language, 'startRange' : startRange, 'endRange' : endRange};
-
-    res.json(json_obj)
-
+    const object = {
+      'mpaarating': req.query.mpaarating,
+      'genre': req.query.genre,
+      'language': req.query.language,
+      'runtime': {'start': startRange, 'end': endRange}
+    };
+    res.json(object)
   })
   .post(async (req, res) => {
 
