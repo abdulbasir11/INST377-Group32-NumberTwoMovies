@@ -32,6 +32,10 @@
     border: none;
   }
 
+  a:hover {
+    background-color: black;
+  }
+
   .advsearchtext {
     line-height: 1em;
   }
