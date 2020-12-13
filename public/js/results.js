@@ -1,10 +1,23 @@
 function getSpecificMovie() {
     var search = location.search.substring(1);
+
+    //SENDING parameters to GET route;
+    //GET route will use the parameters with the
+    //new web scraper to match a movie
+    console.log(search)
+    fetch('/results/?'+search)
+    .then((fromServer) => fromServer.json())
+    .then((jsonFromServer) => console.log(jsonFromServer))
+    .catch((err) => {
+      console.log(err);
+    });
+
     let data = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
     return data;
 }
 console.log(getSpecificMovie())
 
+/*
 async function getAllMovie() {
     const getMovie = await fetch(`/server_files/movieList.txt`)
     const movielist = await getMovie.text();
@@ -28,7 +41,7 @@ async function getAllMovie() {
 }
 
 console.log(getAllMovie());
-
+*/
 async function getSelection() {
     
     await fetch('/results', {

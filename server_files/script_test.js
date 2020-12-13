@@ -17,7 +17,7 @@ document.querySelector('.main-search-form').addEventListener('submit', async (e)
       
     });
 
-    
+/*
 document.querySelector('.adv-search-form').addEventListener('submit', async (e) => {
     //e.preventDefault(); // this stops whatever the browser wanted to do itself.
     const form = $(e.target).serializeArray();
@@ -32,7 +32,9 @@ document.querySelector('.adv-search-form').addEventListener('submit', async (e) 
       .catch((err) => {
         console.log(err);
       });
+    
       
     });
+    */
     
        

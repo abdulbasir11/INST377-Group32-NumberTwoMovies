@@ -29,11 +29,6 @@ app.use((req, res, next) => {
 app.route('/').
   get(async(req, res) => {
     console.log('GET request detected for main route')
-    console.log('GET request detected');
-    console.log(req.query.mpaarating)
-    let rating = req.query.mpaarating;
-    let genre = req.query.genre;
-    res.json({mpaarating : rating})
   })
   .post((req, res) => {
     console.log('POST request detected for main route')
@@ -41,8 +36,6 @@ app.route('/').
 
 app.route('/results')
   .get((req, res) => {
-
-    console.log(req.query.mpaarating)
     let runtime = req.query.runtime;
     let startRange = 0;
     let endRange = 0;
