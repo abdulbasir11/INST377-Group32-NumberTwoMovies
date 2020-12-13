@@ -10,6 +10,7 @@
 
   h1 {
     background-image: linear-gradient(to right,#221f3b, #050505);
+    font-weight: 400;
   }
 
   .navlinks {
