@@ -8,6 +8,10 @@ import datetime
 # Author: Abdul-B. A.
 # Description: Movie Webscraper for Number Two Movies Webpage
 # Version: 2.0
+# Version 1.0 got title only and returned a text file.
+# We thought this was okay because we didn't know the API could only search by title.
+# Hence, this (admittedly haphazard) Version 2.0 scrapes an entries title, mpaa rating,
+# runtime, and language, and returns it as a JSON object.
 
 # dialog mainly for testing purposes, but will keep due to sentimental value
 
