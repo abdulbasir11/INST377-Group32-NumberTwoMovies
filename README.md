@@ -20,7 +20,7 @@ For the target screen sizes, we are targeting both Android devices and PCs, whic
 4. The application will now be ready to use.
 
 #### How to run Number Tw💩 Movies on a server
-1. For a new OMDb API key, go to OMDb API Key page and request a free key.
+1. For a new OMDb API key, go to [OMDb API Key page](https://www.omdbapi.com/apikey.aspx) and request a free key.
 2. Change the key in the server.js file, specifically where the code says ```data = await fetch("http://www.omdbapi.com/?i=tt3896198&apikey=7d48a482&t=" + encodeURIComponent(title));```. 
 3. In the terminal again, type ```npm start```.
 4. In a web browser, go to http://localhost:3000/.
