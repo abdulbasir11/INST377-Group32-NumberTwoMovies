@@ -26,6 +26,35 @@
     object-fit: cover;
 }
 
+.button-container{ 
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: 20px auto;
+    padding: 10px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #221f3b;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.30);
+    opacity: 0.9;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+button:hover {opacity: 1}
+
+button .advance-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border: none;
+}
+
 @media handheld, only screen and (max-width: 960px) {
     html{
         align-items: center;
