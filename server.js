@@ -58,7 +58,7 @@ app.route('/results')
         break;
     }
 
-    //HERE'S THE DUMP! NOTE that it is not the full dump!
+    //call the webscraped titles
     const dump = await fetch(`${server}/server_files/imdbscrape_dump.json`)
     const dumpjson = await dump.json()
 
@@ -92,10 +92,17 @@ app.route('/results')
     //grab the titles and prepare them to send to the api
     let matchedTitles = matches.map(match => match.title)
 
-    //limit to 3 maximum. The PUT method can "load more". But, due to access
+    //if the array length is >3,
+    //shuffle it so other results
+    //are displayed upon reloading
+    //with the same query
+    if (matchedTitles.length > 3){
+      shuffle(matchedTitles)
+    }
+
+    //limit to 3 maximum. Due to access
     //token restictions (1000 per day per key). we have to be
-    //a bit... frugal. But it's fine because it lets us fulfill
-    //a requirement anyway
+    //a bit... frugal.
     let counter = 0
     let top3_req = ""
     let top3 = ""
@@ -110,11 +117,13 @@ app.route('/results')
       }
     }
 
+    //send it through the bifrost
+    //shoutout to Heimdall
     res.json(top3_json)
 
   })
   .post(async (req, res) => {
-    console.log(req);
+    //console.log(req);
     const getMovie = await fetch(`${server}/server_files/movieList.txt`)
     const movielist = await getMovie.text();
     let lines = movielist.split('\n');
@@ -210,6 +219,11 @@ function searchRange(arr, field, lower, upper){
 }
 
 //removes objects from list of arrays that are not arrays.. I think
+//Opinion: weak typing is an irredeemable abomination of a concept
+//and a festering byproduct of undirected human ingenuity
+//
+//I ask "what is this" and I'm told "any(thing you want)"
+//in a perfunctory grunt as JS flaccidly rolls over
 function removeSentinels(arr){
   let results = [];
   for (var i = 0; i < arr.length; i++){
@@ -218,4 +232,17 @@ function removeSentinels(arr){
     }
   }
   return results
+}
+
+//shuffles the element in an array
+//note that this is IN-PLACE.
+//beware of feeding this thing arrays of size 0 or 1
+//
+//within the scope of this code, only arrays of size >3
+//should call this anyway. So we're okay. everythings okay.
+function shuffle(arr) {
+  for (var i = arr.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
 }
