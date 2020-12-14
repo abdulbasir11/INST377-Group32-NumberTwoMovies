@@ -37,7 +37,7 @@ async function getRandomMovies() {
 
 // }
 
-async function getRandomMovies2(url) {
+async function getSpecificMovies(url) {
     
     await fetch(url, {
         method: 'PUT', // or 'PUT'
@@ -71,7 +71,7 @@ var search = location.search.substring(1);
 if (search.length > 0) {
     let param = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
     let url = '/selection?' + new URLSearchParams(param);
-    getRandomMovies2(url);
+    getSpecificMovies(url);
 } else {
     getRandomMovies();
 }
