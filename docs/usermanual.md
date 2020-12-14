@@ -8,6 +8,7 @@
 
 ## Filtered/Advanced Search
 - The "Filtered/Advanced Search" button allows for users to select specific parameters for facets like MPAA Rating, Genre, Language, and Runtime.
+- Three random results that matches your query will show up, and users can click "Show more" button to get three additional results.
 
 ### MPAA Rating
 - Users can search for specific movie ratings. MPAA Ratings include G, PG, PG-13, R, and NC-17. Some movies in the OMDb API database have no MPAA rating, or N/A.
