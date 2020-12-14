@@ -59,7 +59,7 @@ app.route('/results')
     }
 
     //HERE'S THE DUMP! NOTE that it is not the full dump!
-    const dump = await fetch(`${server}/server_files/dump_test.json`)
+    const dump = await fetch(`${server}/server_files/imdbscrape_dump.json`)
     const dumpjson = await dump.json()
 
     //my initial thoughts for finding matches and returning an array for each based on it
@@ -111,7 +111,7 @@ app.route('/results')
     }
 
     res.json(top3_json)
-    
+
   })
   .post(async (req, res) => {
 
