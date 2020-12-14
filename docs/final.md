@@ -22,6 +22,6 @@
 ### How/if our final system helps to address the problem
   - Again, our application will search for movies that are rated subpar. This is less common than searching for movies 'that are good.' Users who want an alternative/unique way to search for new movies to watch can use our application, either by a random movie generator or by specific parameters.
 ### Challenges faced and impact on final design
-  - The complexity of allowing users to search through a form and then selecting a result from that form to use as a search parameter was something we had trouble with. 
+  - We decided not to pursue a user-text input search system. Instead, the project utilizes drop-down selection for users to choose within Advanced Search. However, the complexity of allowing users to search through a form and then selecting a result from that form to use as a search parameter was something we had trouble with. 
 ### Possible future work directions with this problem
   - If more opportunities arise to work with this application, it would be ideal to work on the CSS/layout. As is, it is bare-bones and not very modern. Adding gradients, curved edges, and so forth can make the web application friendlier to look at.
