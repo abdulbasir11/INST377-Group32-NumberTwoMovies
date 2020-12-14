@@ -28,7 +28,7 @@ function getSpecificMovie() {
     let data = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
     return data;
 }
-console.log(getSpecificMovie())
+getSpecificMovie();
 
 
 async function getSelection() {
