@@ -44,12 +44,7 @@
     align-self: center;
     border: none;
   }
-
-  h4:hover {
-    background-color: black;
-    border: 1px solid white;
-  }
-
+  
   .advsearchtext {
     line-height: 1em;
   }
@@ -120,6 +115,19 @@
 
   .collapsable h4 {
     padding-bottom: 20px;
+  }
+
+  .collapsable h4:hover {
+    background-color: #050505;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 15px;
   }
 
 @media handheld, only screen and (max-width: 960px) {
