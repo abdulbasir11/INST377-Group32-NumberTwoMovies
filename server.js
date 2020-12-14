@@ -114,7 +114,7 @@ app.route('/results')
 
   })
   .post(async (req, res) => {
-
+    console.log(req);
     const getMovie = await fetch(`${server}/server_files/movieList.txt`)
     const movielist = await getMovie.text();
     let lines = movielist.split('\n');
@@ -125,7 +125,28 @@ app.route('/results')
     const data = await fetch("http://www.omdbapi.com/?i=tt3896198&apikey=7d48a482&t=" + encodeURIComponent(movie));
     const json = await data.json();
     res.json(json);
+  });
+
+app.route('/selection')
+  .get(async (req, res) => {
+    console.log(req.params);
   })
+  .post(async (req, res) => {
+    let title = req.query.title;
+    let data;
+    if (title.length > 0) {
+      data = await fetch("http://www.omdbapi.com/?i=tt3896198&apikey=7d48a482&t=" + encodeURIComponent(title));
+    } else {
+      const getMovie = await fetch(`${server}/server_files/movieList.txt`)
+      const movielist = await getMovie.text();
+      let lines = movielist.split('\n');
+      let movie = lines[Math.floor(Math.random()*lines.length)];
+  
+      data = await fetch("http://www.omdbapi.com/?i=tt3896198&apikey=7d48a482&t=" + encodeURIComponent(movie));
+    }
+    const json = await data.json();
+    res.json(json);
+  });
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}.`);

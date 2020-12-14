@@ -15,6 +15,7 @@
 .content ul li p{
     text-align: left;
     font-size: 16px;
+    padding: 0 10px;
 }
 
 .content ul li div { 
@@ -22,7 +23,6 @@
     height: 350px;
     margin: 10px;
     background-color: #050505;
-    padding: 10px;
     border: 1px solid white;
 }
 

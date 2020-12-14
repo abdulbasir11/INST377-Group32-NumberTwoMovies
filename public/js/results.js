@@ -7,7 +7,20 @@ function getSpecificMovie() {
     console.log(search)
     fetch('/results/?'+search)
     .then((fromServer) => fromServer.json())
-    .then((jsonFromServer) => console.log(jsonFromServer))
+    .then((movieList) => {
+        console.log(movieList)
+        movieList.forEach(data => {
+            $(".movie-list").append(`
+                <li class="poster">
+                    <div>
+                        <a href="/selection.html?title=${data.Title}">
+                        <img src=${data.Poster}/>
+                        </a>
+                    </div>
+                </li>
+            `);
+        });
+    })
     .catch((err) => {
       console.log(err);
     });
@@ -17,31 +30,7 @@ function getSpecificMovie() {
 }
 console.log(getSpecificMovie())
 
-/*
-async function getAllMovie() {
-    const getMovie = await fetch(`/server_files/movieList.txt`)
-    const movielist = await getMovie.text();
-    let titles = movielist.split('\n');
-    console.log(titles.slice(0,2))
 
-    // const data = lines.slice(0,2).map(async (mov) => {
-    //     const d = await fetch("http://www.omdbapi.com/?i=tt3896198&apikey=5606a178&t="+mov)
-    //     .then((res) => res.json());
-    //     return d;
-    // })
-    
-    let moviesData = [];
-    titles.forEach((t) => {
-        
-    })
-    fetch("http://www.omdbapi.com/?i=tt3896198&apikey=bd165689=xXx").then((res) => {moviesData.push(res.json())})
-    
-    console.log(moviesData);
-    return moviesData;
-}
-
-console.log(getAllMovie());
-*/
 async function getSelection() {
     
     await fetch('/results', {
