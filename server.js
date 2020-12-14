@@ -131,7 +131,7 @@ app.route('/selection')
   .get(async (req, res) => {
     console.log(req.params);
   })
-  .post(async (req, res) => {
+  .put(async (req, res) => {
     let title = req.query.title;
     let data;
     if (title.length > 0) {

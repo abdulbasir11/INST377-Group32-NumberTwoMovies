@@ -40,7 +40,7 @@ async function getRandomMovies() {
 async function getRandomMovies2(url) {
     
     await fetch(url, {
-        method: 'POST', // or 'PUT'
+        method: 'PUT', // or 'PUT'
         headers: {
             'Content-Type': 'application/json',
         },
