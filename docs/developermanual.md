@@ -11,7 +11,7 @@ The Developer Manual covers:
 ### How to install Number Tw💩 Movies and all dependencies
 1. Clone this repository through Github Desktop (by pressing the Code button) or through the terminal.
 2. Open the repository in within VS Code ("Open this repository in VSCode" button in GitHub Desktop) or terminal application.
-3. Type 'npm install' into the terminal window and run.
+3. Type 'code'npm install'code' into the terminal window and run.
 4. The application will now be ready to use.
 
 ### How to run Number Tw💩 Movies on a server
