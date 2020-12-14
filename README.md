@@ -40,8 +40,8 @@ Currently, there are no pre-written tests for this project, but users can utiliz
 #### A clear set of expectations around known bugs and a road-map for future development
 - On the movie Results page, if the Advanced Search parameters are extremely specific, clicking the 'Show More' button may sometimes show the same movie as an addditional result. This is because only one movie exists in the API for those specific parameters, and the 'Show More' button passes through the API with those same parameters, thus bringing the same movie result. 
 ### Team Members/Contributors:
-- Abdul-B. A.
-- Carl J.
-- Joseph K.
-- Mary T.
-- Samantha D.
+- [Abdul-B. A.](https://github.com/abdulbasir11)
+- [Carl J.](https://github.com/CarlJeanty)
+- [Joseph K.](https://github.com/jojokimys)
+- [Mary T.](https://github.com/marylt)
+- [Samantha D.](https://github.com/sammdowell)
