@@ -1,0 +1,602 @@
+[{
+    "title": "xXx",
+    "mpaarating": "PG-13",
+    "runtime": "124",
+    "genre": ["Action", "Adventure", "Thriller"],
+    "language": ["English", "German", "Spanish", "Russian", "Czech"]
+}, {
+    "title": "G.I. Joe: The Rise of Cobra",
+    "mpaarating": "PG-13",
+    "runtime": "118",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "language": ["English", "French", "Scottish Gaelic"]
+}, {
+    "title": "2012",
+    "mpaarating": "PG-13",
+    "runtime": "158",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "language": ["English", "French", "Tibetan", "Mandarin", "Russian", "Hindi", "Portuguese", "Latin", "Italian", "Spanish"]
+}, {
+    "title": "Grown Ups",
+    "mpaarating": "PG-13",
+    "runtime": "102",
+    "genre": ["Comedy"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "Battleship",
+    "mpaarating": "PG-13",
+    "runtime": "131",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "language": ["English", "Japanese"]
+}, {
+    "title": "The Guilt Trip",
+    "mpaarating": "PG-13",
+    "runtime": "95",
+    "genre": ["Comedy", "Drama"],
+    "language": ["English"]
+}, {
+    "title": "The Man with the Iron Fists",
+    "mpaarating": "R",
+    "runtime": "95",
+    "genre": ["Action"],
+    "language": ["English", "Mandarin"]
+}, {
+    "title": "Parental Guidance",
+    "mpaarating": "PG",
+    "runtime": "105",
+    "genre": ["Comedy", "Family"],
+    "language": ["English"]
+}, {
+    "title": "Red Dawn",
+    "mpaarating": "PG-13",
+    "runtime": "93",
+    "genre": ["Action", "Drama"],
+    "language": ["English", "Korean"]
+}, {
+    "title": "That's My Boy",
+    "mpaarating": "R",
+    "runtime": "116",
+    "genre": ["Comedy"],
+    "language": ["English"]
+}, {
+    "title": "A Good Day to Die Hard",
+    "mpaarating": "R",
+    "runtime": "98",
+    "genre": ["Action", "Thriller"],
+    "language": ["English", "Russian", "Hindi", "Punjabi"]
+}, {
+    "title": "Spring Breakers",
+    "mpaarating": "R",
+    "runtime": "94",
+    "genre": ["Crime", "Drama"],
+    "language": ["English"]
+}, {
+    "title": "The Incredible Burt Wonderstone",
+    "mpaarating": "PG-13",
+    "runtime": "100",
+    "genre": ["Comedy"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "G.I. Joe: Retaliation",
+    "mpaarating": "PG-13",
+    "runtime": "110",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "language": ["English"]
+}, {
+    "title": "A Haunted House",
+    "mpaarating": "R",
+    "runtime": "86",
+    "genre": ["Comedy", "Fantasy", "Horror"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "After Earth",
+    "mpaarating": "PG-13",
+    "runtime": "100",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "language": ["English"]
+}, {
+    "title": "R.I.P.D.",
+    "mpaarating": "PG-13",
+    "runtime": "96",
+    "genre": ["Action", "Adventure", "Comedy"],
+    "language": ["English"]
+}, {
+    "title": "The Hangover Part III",
+    "mpaarating": "R",
+    "runtime": "100",
+    "genre": ["Comedy", "Crime"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "The Lords of Salem",
+    "mpaarating": "R",
+    "runtime": "101",
+    "genre": ["Horror", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "Iron Sky",
+    "mpaarating": "R",
+    "runtime": "93",
+    "genre": ["Action", "Adventure", "Comedy"],
+    "language": ["English", "German"]
+}, {
+    "title": "Filly Brown",
+    "mpaarating": "R",
+    "runtime": "80",
+    "genre": ["Drama", "Music"],
+    "language": ["English"]
+}, {
+    "title": "Antiviral",
+    "mpaarating": "",
+    "runtime": "108",
+    "genre": ["Horror", "Mystery", "Sci-Fi"],
+    "language": ["English"]
+}, {
+    "title": "The Cloth",
+    "mpaarating": "",
+    "runtime": "88",
+    "genre": ["Action", "Fantasy", "Horror"],
+    "language": ["English"]
+}, {
+    "title": "Tomorrow You're Gone",
+    "mpaarating": "",
+    "runtime": "93",
+    "genre": ["Thriller"],
+    "language": ["English"]
+}, {
+    "title": "Not Fade Away",
+    "mpaarating": "R",
+    "runtime": "112",
+    "genre": ["Drama"],
+    "language": ["English"]
+}, {
+    "title": "Under the Bed",
+    "mpaarating": "R",
+    "runtime": "87",
+    "genre": ["Drama", "Horror"],
+    "language": ["English"]
+}, {
+    "title": "The Outback",
+    "mpaarating": "PG",
+    "runtime": "85",
+    "genre": ["Animation", "Adventure", "Family"],
+    "language": ["English", "Korean"]
+}, {
+    "title": "Scary Movie V",
+    "mpaarating": "PG-13",
+    "runtime": "86",
+    "genre": ["Comedy", "Horror"],
+    "language": ["English", "Spanish", "Latin"]
+}, {
+    "title": "The Numbers Station",
+    "mpaarating": "R",
+    "runtime": "89",
+    "genre": ["Action", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "Pawn",
+    "mpaarating": "R",
+    "runtime": "88",
+    "genre": ["Action", "Crime", "Mystery"],
+    "language": ["English"]
+}, {
+    "title": "Temptation: Confessions of a Marriage Counselor",
+    "mpaarating": "PG-13",
+    "runtime": "111",
+    "genre": ["Drama", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "Grown Ups 2",
+    "mpaarating": "PG-13",
+    "runtime": "101",
+    "genre": ["Comedy"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "Assassins Run",
+    "mpaarating": "R",
+    "runtime": "88",
+    "genre": ["Action", "Crime", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "Percy Jackson: Sea of Monsters",
+    "mpaarating": "PG",
+    "runtime": "106",
+    "genre": ["Adventure", "Family", "Fantasy"],
+    "language": ["English"]
+}, {
+    "title": "The Bling Ring",
+    "mpaarating": "R",
+    "runtime": "90",
+    "genre": ["Biography", "Crime", "Drama"],
+    "language": ["English"]
+}, {
+    "title": "Identity Thief",
+    "mpaarating": "R",
+    "runtime": "111",
+    "genre": ["Comedy", "Crime", "Drama"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "The Big Wedding",
+    "mpaarating": "R",
+    "runtime": "89",
+    "genre": ["Comedy", "Drama", "Romance"],
+    "language": ["English", "Spanish", "Chinese", "Latin"]
+}, {
+    "title": "Only God Forgives",
+    "mpaarating": "R",
+    "runtime": "90",
+    "genre": ["Action", "Crime", "Drama"],
+    "language": ["English", "Thai"]
+}, {
+    "title": "Devils of War",
+    "mpaarating": "",
+    "runtime": "74",
+    "genre": ["Action", "Horror"],
+    "language": ["English"]
+}, {
+    "title": "Movie 43",
+    "mpaarating": "R",
+    "runtime": "94",
+    "genre": ["Comedy"],
+    "language": ["English"]
+}, {
+    "title": "The Haunting in Connecticut 2: Ghosts of Georgia",
+    "mpaarating": "R",
+    "runtime": "100",
+    "genre": ["Drama", "Horror", "Mystery"],
+    "language": ["English"]
+}, {
+    "title": "Crush",
+    "mpaarating": "PG-13",
+    "runtime": "94",
+    "genre": ["Horror", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "The Purge",
+    "mpaarating": "R",
+    "runtime": "85",
+    "genre": ["Horror", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "Superman Returns",
+    "mpaarating": "PG-13",
+    "runtime": "154",
+    "genre": ["Action", "Sci-Fi"],
+    "language": ["English", "German", "French"]
+}, {
+    "title": "Transformers: Revenge of the Fallen",
+    "mpaarating": "PG-13",
+    "runtime": "149",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "Clash of the Titans",
+    "mpaarating": "PG-13",
+    "runtime": "106",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "language": ["English"]
+}, {
+    "title": "Percy Jackson & the Olympians: The Lightning Thief",
+    "mpaarating": "PG",
+    "runtime": "118",
+    "genre": ["Adventure", "Family", "Fantasy"],
+    "language": ["English", "Greek, Ancient (to 1453)"]
+}, {
+    "title": "Bad Teacher",
+    "mpaarating": "R",
+    "runtime": "92",
+    "genre": ["Comedy", "Romance"],
+    "language": ["English"]
+}, {
+    "title": "Battle Los Angeles",
+    "mpaarating": "PG-13",
+    "runtime": "116",
+    "genre": ["Action", "Sci-Fi"],
+    "language": ["English", "Ukrainian"]
+}, {
+    "title": "Cowboys & Aliens",
+    "mpaarating": "PG-13",
+    "runtime": "119",
+    "genre": ["Action", "Sci-Fi", "Thriller"],
+    "language": ["English", "Apache languages"]
+}, {
+    "title": "Green Lantern",
+    "mpaarating": "PG-13",
+    "runtime": "114",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "language": ["English"]
+}, {
+    "title": "Sucker Punch",
+    "mpaarating": "PG-13",
+    "runtime": "110",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "language": ["English", "German"]
+}, {
+    "title": "Immortals",
+    "mpaarating": "R",
+    "runtime": "110",
+    "genre": ["Action", "Drama", "Fantasy"],
+    "language": ["English", "Greek"]
+}, {
+    "title": "Abraham Lincoln: Vampire Hunter",
+    "mpaarating": "R",
+    "runtime": "105",
+    "genre": ["Action", "Fantasy", "Horror"],
+    "language": ["English"]
+}, {
+    "title": "Alex Cross",
+    "mpaarating": "PG-13",
+    "runtime": "101",
+    "genre": ["Action", "Crime", "Mystery"],
+    "language": ["English", "German"]
+}, {
+    "title": "Chernobyl Diaries",
+    "mpaarating": "R",
+    "runtime": "86",
+    "genre": ["Horror", "Mystery", "Thriller"],
+    "language": ["English", "Ukrainian", "Russian"]
+}, {
+    "title": "Fun Size",
+    "mpaarating": "PG-13",
+    "runtime": "86",
+    "genre": ["Adventure", "Comedy"],
+    "language": ["English"]
+}, {
+    "title": "Haywire",
+    "mpaarating": "R",
+    "runtime": "93",
+    "genre": ["Action", "Drama", "Thriller"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "House at the End of the Street",
+    "mpaarating": "PG-13",
+    "runtime": "101",
+    "genre": ["Drama", "Horror", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "Resident Evil: Retribution",
+    "mpaarating": "R",
+    "runtime": "95",
+    "genre": ["Action", "Horror", "Sci-Fi"],
+    "language": ["English", "American Sign Language"]
+}, {
+    "title": "Silent Hill: Revelation",
+    "mpaarating": "R",
+    "runtime": "95",
+    "genre": ["Fantasy", "Horror"],
+    "language": ["English"]
+}, {
+    "title": "Wanderlust",
+    "mpaarating": "R",
+    "runtime": "98",
+    "genre": ["Comedy", "Romance"],
+    "language": ["English", "Swedish", "Italian", "Portuguese", "French"]
+}, {
+    "title": "The Watch",
+    "mpaarating": "R",
+    "runtime": "102",
+    "genre": ["Comedy", "Sci-Fi"],
+    "language": ["English"]
+}, {
+    "title": "Wrath of the Titans",
+    "mpaarating": "PG-13",
+    "runtime": "99",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "language": ["English"]
+}, {
+    "title": "Carrie",
+    "mpaarating": "R",
+    "runtime": "100",
+    "genre": ["Drama", "Horror"],
+    "language": ["English"]
+}, {
+    "title": "Oldboy",
+    "mpaarating": "R",
+    "runtime": "104",
+    "genre": ["Action", "Drama", "Mystery"],
+    "language": ["English"]
+}, {
+    "title": "Stolen",
+    "mpaarating": "R",
+    "runtime": "96",
+    "genre": ["Action", "Crime", "Thriller"],
+    "language": ["English", "Swedish"]
+}, {
+    "title": "The Paperboy",
+    "mpaarating": "R",
+    "runtime": "107",
+    "genre": ["Crime", "Drama", "Mystery"],
+    "language": ["English"]
+}, {
+    "title": "The Tall Man",
+    "mpaarating": "R",
+    "runtime": "106",
+    "genre": ["Crime", "Drama", "Horror"],
+    "language": ["English"]
+}, {
+    "title": "Noah",
+    "mpaarating": "PG-13",
+    "runtime": "138",
+    "genre": ["Action", "Adventure", "Drama"],
+    "language": ["English"]
+}, {
+    "title": "Teenage Mutant Ninja Turtles",
+    "mpaarating": "PG-13",
+    "runtime": "101",
+    "genre": ["Action", "Adventure", "Comedy"],
+    "language": ["English", "Japanese"]
+}, {
+    "title": "Java Heat",
+    "mpaarating": "R",
+    "runtime": "104",
+    "genre": ["Action", "Crime", "Thriller"],
+    "language": ["English", "Indonesian"]
+}, {
+    "title": "21 & Over",
+    "mpaarating": "R",
+    "runtime": "93",
+    "genre": ["Comedy"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "Escape from Planet Earth",
+    "mpaarating": "PG",
+    "runtime": "89",
+    "genre": ["Animation", "Adventure", "Comedy"],
+    "language": ["English"]
+}, {
+    "title": "A Resurrection",
+    "mpaarating": "R",
+    "runtime": "89",
+    "genre": ["Drama", "Horror", "Thriller"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "Revelation Road: The Beginning of the End",
+    "mpaarating": "",
+    "runtime": "88",
+    "genre": ["Action"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "Jurassic Park III",
+    "mpaarating": "PG-13",
+    "runtime": "92",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "Scary Movie 2",
+    "mpaarating": "R",
+    "runtime": "83",
+    "genre": ["Comedy", "Horror"],
+    "language": ["English"]
+}, {
+    "title": "Cheaper by the Dozen",
+    "mpaarating": "PG",
+    "runtime": "98",
+    "genre": ["Comedy", "Family"],
+    "language": ["English"]
+}, {
+    "title": "Scary Movie 3",
+    "mpaarating": "PG-13",
+    "runtime": "84",
+    "genre": ["Comedy", "Horror"],
+    "language": ["English"]
+}, {
+    "title": "The Dukes of Hazzard",
+    "mpaarating": "PG-13",
+    "runtime": "104",
+    "genre": ["Comedy"],
+    "language": ["English"]
+}, {
+    "title": "Fantastic Four",
+    "mpaarating": "PG-13",
+    "runtime": "106",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "language": ["English"]
+}, {
+    "title": "The Fast and the Furious: Tokyo Drift",
+    "mpaarating": "PG-13",
+    "runtime": "104",
+    "genre": ["Action", "Crime", "Thriller"],
+    "language": ["English", "Japanese", "Portuguese"]
+}, {
+    "title": "Scary Movie 4",
+    "mpaarating": "PG-13",
+    "runtime": "83",
+    "genre": ["Comedy", "Horror"],
+    "language": ["English", "Japanese"]
+}, {
+    "title": "Couples Retreat",
+    "mpaarating": "PG-13",
+    "runtime": "113",
+    "genre": ["Comedy"],
+    "language": ["English", "Ukrainian"]
+}, {
+    "title": "The Last Airbender",
+    "mpaarating": "PG",
+    "runtime": "103",
+    "genre": ["Action", "Adventure", "Family"],
+    "language": ["English"]
+}, {
+    "title": "Drive Angry",
+    "mpaarating": "R",
+    "runtime": "104",
+    "genre": ["Action", "Fantasy", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "The Green Hornet",
+    "mpaarating": "PG-13",
+    "runtime": "119",
+    "genre": ["Action", "Comedy", "Crime"],
+    "language": ["English", "Mandarin"]
+}, {
+    "title": "Red Riding Hood",
+    "mpaarating": "PG-13",
+    "runtime": "100",
+    "genre": ["Fantasy", "Horror", "Mystery"],
+    "language": ["English"]
+}, {
+    "title": "Your Highness",
+    "mpaarating": "R",
+    "runtime": "102",
+    "genre": ["Adventure", "Comedy", "Fantasy"],
+    "language": ["English"]
+}, {
+    "title": "The Cold Light of Day",
+    "mpaarating": "PG-13",
+    "runtime": "93",
+    "genre": ["Action", "Thriller"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "Gone",
+    "mpaarating": "PG-13",
+    "runtime": "94",
+    "genre": ["Action", "Adventure", "Mystery"],
+    "language": ["English"]
+}, {
+    "title": "Journey 2: The Mysterious Island",
+    "mpaarating": "PG",
+    "runtime": "94",
+    "genre": ["Action", "Adventure", "Family"],
+    "language": ["English"]
+}, {
+    "title": "Mirror Mirror",
+    "mpaarating": "PG",
+    "runtime": "106",
+    "genre": ["Adventure", "Comedy", "Drama"],
+    "language": ["English"]
+}, {
+    "title": "Paranormal Activity 4",
+    "mpaarating": "R",
+    "runtime": "88",
+    "genre": ["Horror", "Mystery"],
+    "language": ["English", "Ukrainian"]
+}, {
+    "title": "The Possession",
+    "mpaarating": "PG-13",
+    "runtime": "92",
+    "genre": ["Horror", "Mystery", "Thriller"],
+    "language": ["English", "Polish", "Yiddish"]
+}, {
+    "title": "Lay the Favorite",
+    "mpaarating": "R",
+    "runtime": "94",
+    "genre": ["Comedy", "Drama", "Romance"],
+    "language": ["English", "Spanish"]
+}, {
+    "title": "Would You Rather",
+    "mpaarating": "",
+    "runtime": "93",
+    "genre": ["Horror", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "Bullet to the Head",
+    "mpaarating": "R",
+    "runtime": "92",
+    "genre": ["Action", "Crime", "Thriller"],
+    "language": ["English"]
+}, {
+    "title": "Gambit",
+    "mpaarating": "PG-13",
+    "runtime": "89",
+    "genre": ["Comedy", "Crime"],
+    "language": ["English", "Japanese"]
+}
+]
