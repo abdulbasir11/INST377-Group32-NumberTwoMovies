@@ -1,10 +1,10 @@
 # Number Tw💩 Movies
 ## Team members
-  - Abdul-B. A.
-  - Carl J.
-  - Joseph K.
-  - Mary T.
-  - Samantha D.
+  - [Abdul-B. A.](https://github.com/abdulbasir11)
+  - [Carl J.](https://github.com/CarlJeanty)
+  - [Joseph K.](https://github.com/jojokimys)
+  - [Mary T.](https://github.com/marylt)
+  - [Samantha D.](https://github.com/sammdowell)
 ### Link to working application
   - [Heroku](https://number-two-movies.herokuapp.com/)
 ### Information problem
