@@ -50,7 +50,7 @@ Currently, there are no pre-written tests for this project, but users can utiliz
 ##### PUT route
  - The ```/selection``` PUT route allows the user to be directed to the details of a movie when clicking the poster.
  - If the title parameter is passed in, it will send the title to the API and send the response to the front end.
-#### Bugs and future development
+### Bugs and future development
 - On the movie Results page, if the Advanced Search parameters are extremely specific, clicking the 'Show More' button may sometimes show the same movie as an addditional result. This is because only one movie exists in the API for those specific parameters, and the 'Show More' button passes through the API with those same parameters, thus bringing the same movie result. 
 - Future development would likely address any redundant or unneccessary requests to the API to ensure the key did not get exhausted.
 - Website navigability while maintaining form information as expect is also a area of future development we may be interested in.
