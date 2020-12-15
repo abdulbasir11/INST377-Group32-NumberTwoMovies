@@ -30,7 +30,7 @@ Currently, there are no pre-written tests for this project, but users can utiliz
 4. In the second terminal, type/run ```npm test```.
 5. ```npm test``` should automatically open Cypress where you can access any created test files.
 
-### The API for Number Tw💩 Movies server application - all GET, POST, PUT, etc endpoints, and what they each do
+### The API for Number Tw💩 Movies server application
 #### The ```/results``` endpoint:
 ##### GET route
  - The ```/results``` GET route is responsible for the "Advance Search" function.
@@ -47,7 +47,7 @@ Currently, there are no pre-written tests for this project, but users can utiliz
  - The ```/selection``` PUT route allows the user to be directed to the details of a movie when clicking the poster.
  - If the title parameter is passed in, it will send the title to the API and send the response to the front end.
 
-### A clear set of expectations around known bugs and a road-map for future development
+### Bugs and future development
 - On the movie Results page, if the Advanced Search parameters are extremely specific, clicking the 'Show More' button may sometimes show the same movie as an addditional result. This is because only one movie exists in the API for those specific parameters, and the 'Show More' button passes through the API with those same parameters, thus bringing the same movie result.
 - Future development would likely address any redundant or unneccessary requests to the API to ensure the key did not get exhausted.
 - Website navigability while maintaining form information as expect is also a area of future development we may be interested in.
